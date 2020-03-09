@@ -1,0 +1,67 @@
+body{
+    background: url(../img/blue-white3.jpg) no-repeat center center fixed;
+    background-size: cover;
+}
+
+.main-section{
+    margin: 0 auto; /* centro el div*/
+    margin-top: 25%;
+    padding: 0;
+}
+
+.modal-content{
+    background-color: #3b4652;
+    opacity: .87;
+    padding: 0px 20px; /* 0 arriba y abajo, y 20 px a los costados */
+    box-shadow: 0px 0px 3px #848484; /* 0 sobra vertical, 0 vertical y de grosor 3 */
+}
+
+.user-img{
+    margin-top: -50px;
+    margin-bottom: 35 px;
+    padding-bottom: 5px;
+}
+
+.user-img img{ /* dentro del div aplica solo a la imagen*/
+    width: 100px;
+    height: 100px;
+    box-shadow: 0px 0px 3px #848484;
+    border-radius: 50%;
+}
+
+.form-group input{
+    height: 42px;
+    font-size: 18px;
+    border: 0;
+    padding-left: 55px; /* para el icono  */
+    border-radius: 5px; /* le doy un pequeño borde redondo al input */
+}
+
+.form-group::before{ /* necesario para utilizar el font awesome  */
+    font-family: "Font Awesome\ 5 Free";
+    position: absolute;
+    left: 28px;
+    font-size: 22px;
+    padding-top: 4px;
+}
+
+.form-group#user-group::before{ /* aplico al id user-group  */
+    content: "\f007";
+}
+
+.form-group#contrasena-group::before{ /* aplico al id user-group  */
+    content: "\f023";
+}
+
+button{
+    width: 60%;
+    margin: 5px 0 25px; /* 5px de arriba, 0 a los lados y 25 de px hacia abajo  */
+}
+
+.forgot{
+    padding: 5px 0;/* 5px de arriba y abajo, y 0 a los lados */
+}
+
+.forgot a{
+    color: white;
+}
